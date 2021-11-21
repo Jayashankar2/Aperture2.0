@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+header{
+    padding: 10px 2%;
+    background: black;
+}
+.logo1{
+    margin-right: auto;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.logo1 span{
+    color: red;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header ul li{
+    margin-left: 40px;
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease 0s;
+    font-weight: 500;
+}
+header ul li a:hover{
+    color: red;
+}
+nav > a > button{
+    margin-left: 40px;
+    padding: 5px 20px;
+    border: none;
+    background-color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    transition: 0.3s ease 0s;
+}
+nav > a > button:hover{
+    background: red;
+    box-shadow: 0 0 30px red;
+    color: white;
+}
